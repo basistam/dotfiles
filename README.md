@@ -10,4 +10,7 @@ In order to get everything up & running you need to:
 
 - Install homebrew
 
-- Install tmux
+- Install tmux (reattach-to-user-namespace also required)
+
+- Install Powerline fonts
+    https://github.com/powerline/fonts
