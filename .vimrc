@@ -49,3 +49,6 @@ let g:indent_guides_guide_size = 1
 :" Nerd tree settings
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 0 
+
+" Syntax highlighting for subtitle files in Subrip (srt) format
+au BufNewFile,BufRead *.srt setf srt
