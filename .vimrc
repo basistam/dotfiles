@@ -20,7 +20,7 @@ set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#whitespace#enabled = 0
-let g:airline#extensions#hunks#enabled = 0
+let g:airline#extensions#hunks#non_zero_only = 1
 
 :" Fix backspace mode
 set backspace=2
