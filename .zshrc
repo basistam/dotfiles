@@ -45,7 +45,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brews zsh-syntax-highlighting)
+plugins=(git brew zsh-syntax-highlighting)
 
 # User configuration
 
@@ -55,9 +55,4 @@ export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sb
 source $ZSH/oh-my-zsh.sh
 
 # Default username
-# export DEFAULT_USER="USERNAME"
-
-# Completion
-fpath=(/usr/local/share/zsh-completions $fpath)
-autoload -U compinit
-compinit
+# export DEFAULT_USER=""
