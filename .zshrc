@@ -55,4 +55,4 @@ export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sb
 source $ZSH/oh-my-zsh.sh
 
 # Default username
-# export DEFAULT_USER=""
+export DEFAULT_USER="majky"
