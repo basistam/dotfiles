@@ -59,3 +59,4 @@ export DEFAULT_USER="majky"
 
 # VLC alias
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
+alias c='ccat'

@@ -52,3 +52,4 @@ let NERDTreeDirArrows = 0
 
 " Syntax highlighting for subtitle files in Subrip (srt) format
 au BufNewFile,BufRead *.srt setf srt
+autocmd BufNewFile,BufRead *.json set ft=javascript
