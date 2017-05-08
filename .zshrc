@@ -45,7 +45,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew zsh-syntax-highlighting heroku meteor)
+plugins=(git brew zsh-syntax-highlighting npm)
 
 # User configuration
 
@@ -60,3 +60,11 @@ export DEFAULT_USER="majky"
 # VLC alias
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 alias c='ccat'
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
